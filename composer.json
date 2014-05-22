@@ -1,0 +1,20 @@
+{
+    "name": "3oFramework/Core",
+    "description": "TriO's Core.",
+    "license": "MIT",
+    "require": {
+    },
+    "autoload": {
+        "classmap": [
+            "3o"
+        ],
+        "psr-0": {
+        }
+    },
+    "scripts": {
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
+}
