@@ -2,6 +2,7 @@
 # you should edit this file to fit your needs
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /3oCore/
+#RewriteBase /3oCore/
+RewriteBase /
 RewriteRule (.+)(\.php)? 3obootstrap.php?page=$1
 </IfModule>

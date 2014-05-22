@@ -1,4 +1,8 @@
 <?php
+
+// Load Composer
+require __DIR__.'/vendor/autoload.php';
+
 // load the Trio Core framework
 require_once __DIR__.'/3o/framework-core.php';
 
@@ -7,7 +11,8 @@ require_once __DIR__.'/3o/framework-core.php';
 define ('SITE_ROOT',__DIR__);
 
 // not required, but usefull - change this with your value
-define ('URL_ROOT','/3oCore');
+//define ('URL_ROOT','/3oCore');
+define ('URL_ROOT','');
 
 // start the Trio Core Framework
 TOCore::main();
